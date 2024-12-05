@@ -152,3 +152,6 @@ zle -N zle-line-init
 export PATH=$PATH:/usr/local/go/bin
 
 eval "$(_COMPILEDB_COMPLETE=source compiledb)"
+
+# 10ms for key sequences; normal mode delay
+KEYTIMEOUT=1
